@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>index.ejs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+  <style>
+    .jumbotron{
+      background-color:#2E2D88;
+      color: white;
+    }
+    .tab-content{
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+    }
+    .nav-tabs{
+      margin-bottom: 0;
+    }
+  </style>
+
+
+
+
+</head>
+<body>
+  <div class="containter">
+    <div class="page-header">
+      <h1>Hello World</h1>
+    </div>
+  </div>
+  <div class="containter">
+    <div class="page-header">
+      <h1>Node Express with Bootstrap</h1>
+    </div>
+    <div class="jumbotron">
+      <ul class="quotes">
+      <% for(var i=0; i<quotes.length; i++) {%>
+        <li class="quote">
+          <span><%= quotes[i].name %>: </span>
+          <span><%= quotes[i].quote %></span>
+        </li>
+      <% } %>
+      </ul>
+
+        <form action="/quotes" method="POST">
+          <input type="text" placeholder="name" name="name">
+          <input type="text" placeholder="quote" name="quote">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
