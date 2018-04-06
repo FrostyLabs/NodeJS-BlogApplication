@@ -7,6 +7,14 @@ This blog application allows at least one user to create, update, delete, and re
 ```
 cd BlogApplication/ && npm install && cd angular-src/ && npm install && ng build && node ../app.js
 ```
+This can take a couple of minutes to run. 
+
+Terminal outpuut should be: 
+```
+Server started on  port: 3000
+Connected to database mongodb://localhost/blogs
+```
+
 
 ###### Note: 
 - Node version: v8.11.0
