@@ -3,11 +3,10 @@ Thornewill von Essen_Oliver Coursework #2 submission
 
 This blog application allows at least one user to create, update, delete, and read blog posts. There is an antuentication tool implemented such that only users which are authenticated are allowed to create, update, or delete posts. There is a registration and login form for the authentication.
 
-# How to run: 
+## How to run: 
 cd BlogApplication/ && npm install && cd angular-src/ && npm install && ng build && node ../app.js
 
-# Note: 
-I used Linux Mint 18.04 to create this application
-
-Node version: v8.11.0
-NPM version: 5.8.0
+###### Note: 
+- I used Linux Mint 18.04 to create this application
+- Node version: v8.11.0
+- NPM version: 5.8.0
