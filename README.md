@@ -7,6 +7,7 @@ This blog application allows at least one user to create, update, delete, and re
 cd BlogApplication/ && npm install && cd angular-src/ && npm install && ng build && node ../app.js
 
 ###### Note: 
-- I used Linux Mint 18.04 to create this application
 - Node version: v8.11.0
 - NPM version: 5.8.0
+- I used Linux Mint 18.04 for the creation of this application
+
