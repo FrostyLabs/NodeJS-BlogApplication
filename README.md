@@ -11,7 +11,7 @@ pwd
 ```
 Command to setup node modules and start server:
 ```
-cd BlogApplication/ && npm install && cd angular-src/ && npm install && ng build && node ../app.js
+cd BlogApplication/ && npm install && cd angular-src/ && npm install && node ../app.js
 ```
 This can take a couple of minutes to run. 
 
