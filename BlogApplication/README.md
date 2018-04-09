@@ -1,10 +1,29 @@
-Source1: YouTube - Traversy Media : MEAN Stack Front To Back videos 1-9
-Source2: https://www.djamware.com/post/58cf4e1c80aca72df8d1cf7e/tutorial-building-crud-app-from-scratch-using-mean-stack-angular-2
+# Thornewill-Von-Essen_Oliver_set08101_coursework2
+Thornewill von Essen_Oliver Coursework #2 submission
 
---
+This blog application allows at least one user to create, update, delete, and read blog posts. There is an antuentication tool implemented such that only users which are authenticated are allowed to create, update, or delete posts. There is a registration and login form for the authentication.
 
-To make this work you must:
-1. npm install
-2. cd into meanauthapp/angular-src
-3. run "ng build && node ../app.js"
-4. Hope for the best!
+## How to run: 
+Must be in root directory of repository
+```
+pwd
+./Thornewill-Von-Essen_Oliver_set08101_coursework2
+```
+Command to setup node modules and start server:
+```
+cd BlogApplication/ && npm install && cd angular-src/ && npm install && node ../app.js
+```
+This can take a couple of minutes to run. 
+
+Final Terminal outpuut should be: 
+```
+Server started on  port: 3000
+Connected to database mongodb://localhost/blogs
+```
+
+
+###### Note: 
+- Node version: v8.11.0
+- NPM version: 5.8.0
+- I used Linux Mint 18.04 for the creation of this application
+
