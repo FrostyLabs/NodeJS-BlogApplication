@@ -1,0 +1,39 @@
+<div class="container"><br>
+  <div class="row">
+    <div class="col-md-12">
+      <div>
+        <h2>Welcome to the dashboard</h2><hr>
+        <div class="row">
+
+          <div class="col-md-3">
+            <h3 class="page-header">Create a new post</h3>
+            <a [routerLink]="['/blog-create']" class="btn btn-success">
+              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>New 
+            </a>
+          </div>
+          <div class="col-md-9">
+            <h3 class="page-header">Blog Catalogue</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th style="text-align: right">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let blog of blogs">
+                  <td>{{ blog.title }}</td>
+                  <td>{{ blog.author }}</td>
+                  <td align="right"><a [routerLink]="['/blog-details', blog._id]" class="btn btn-primary">Open</a><div class="divider"></div><a [routerLink]="['/blog-edit', blog._id]" class="btn btn-warning">Edit</a><div class="divider"></div><button class="btn btn-danger" type="button" (click)="deleteBlog(blog._id)">Delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

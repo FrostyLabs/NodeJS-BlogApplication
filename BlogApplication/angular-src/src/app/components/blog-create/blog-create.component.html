@@ -1,0 +1,24 @@
+<div class="container"><br>
+  <div><h3 class="page-header">Add New Blog Post</h3>
+  <div class="row">
+    <div class="col-md-10">
+      <form (ngSubmit)="saveBlog()" #blogForm="ngForm">
+        <div class="form-group">
+          <label for="name">Title</label>
+          <input type="text" class="form-control" [(ngModel)]="blog.title" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Author</label>
+          <input type="text" class="form-control" [(ngModel)]="blog.author" name="author" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Content</label>
+          <textarea type="text" class="form-control" [(ngModel)]="blog.content" name="content" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success" [disabled]="!blogForm.form.valid">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+<div class="container-fluid jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="display-3">Blog Application</h1>
+        <p class="lead">Web Technologies - SET08101: Coursework Submission #2</p>
+        <p>40210534, Oliver Thornewill von Essen</p>
+      </div>
+      <div class="col-md-3">
+        <img height="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2000px-Node.js_logo_2015.svg.png" alt="NodeJS Logo" align="left"><br><br><br>
+        <img height="50px" src="https://coligo.io/images/express.svg" alt="Express Logo" align="left"><br><br><br>
+      </div>
+      <div class="col-md-3">
+        <img height="50px" src="https://cdn.worldvectorlogo.com/logos/angular-3.svg" alt="AngularJS Logo" align="left"><br><br><br>
+        <img height="50px" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/036/thumb/jwt.png" alt="JWT Logo" align="left">
+        <img height="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/JWT-Logo.svg/2000px-JWT-Logo.svg.png" alt="JWT Logo" align="left">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Blog Application</h3>
+      <p>This blog application includes functionality for user registration and authentication as well as CRUD blog functionality. Unauthorized users are able to read the list of posted blog posts, however in order to create/update/delete a blog the user must be authorized. </p>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+      <h3>Angular-CLI </h3>
+      <p> Angular-CLI has been used in order to generate components, services and more. Local dev server and easy compilation.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Express Backend</h3>
+      <p> The use of express enables a rock solid Node.js/Express server. Additional use of Mongoose allows us to organize models and query the database for data. </p>
+      <div>
+        <a class="btn btn-primary" [routerLink]="['/blogs']">Blog Catalogue</a>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+      <h3>JSON Web Tokens</h3>
+      <p> Full featured authentication using JSON web tokens which enable one to login and store user data. Furthermore it allows the restriction of access against unauthorized users. Registered user passwords are encrypted using the Bcryptjs node module before they are stored in the database.</p>
+      <div>
+        <a class="btn btn-primary" [routerLink]="['/register']">Register</a>
+        <a class="btn btn-default" [routerLink]="['/login']">Login</a>
+      </div>
+    </div>
+  </div>
+</div>

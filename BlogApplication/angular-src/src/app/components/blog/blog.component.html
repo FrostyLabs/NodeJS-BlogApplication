@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron"><br>
+        <h3 class="page-header">Blog Catalogue</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th style="text-align: right">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let blog of blogs">
+              <td>{{ blog.title }}</td>
+              <td>{{ blog.author }}</td>
+              <td align="right">
+                <a [routerLink]="['/blog-details', blog._id]" class="btn btn-primary">Open Post</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
