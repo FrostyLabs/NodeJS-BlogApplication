@@ -26,7 +26,7 @@ Connected to database mongodb://localhost/blogs
 </p>
 
 
-#### Note: 
+### Note: 
 - Node version: v8.11.0
 - NPM version: 5.8.0
 - I used Linux Mint 18.04 for the creation of this application
