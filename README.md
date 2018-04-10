@@ -21,6 +21,10 @@ Server started on  port: 3000
 Connected to database mongodb://localhost/blogs
 ```
 
+<p align="center">
+  <img src="Report/images/Home.png" width="350"/>
+</p>
+
 
 ###### Note: 
 - Node version: v8.11.0
