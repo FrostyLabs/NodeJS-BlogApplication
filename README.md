@@ -22,7 +22,7 @@ Connected to database mongodb://localhost/blogs
 ```
 
 <p align="center">
-  <img src="Report/images/Home.png" width="350"/>
+  <img src="Report/images/Home.png" />
 </p>
 
 
