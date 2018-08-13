@@ -7,7 +7,7 @@ This blog application allows at least one user to create, update, delete, and re
 Must be in root directory of repository
 ```
 pwd
-./Thornewill-Von-Essen_Oliver_set08101_coursework2
+./NodeJS-BlogApplication
 ```
 Command to setup node modules and start server:
 ```
