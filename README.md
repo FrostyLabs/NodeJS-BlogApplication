@@ -3,6 +3,9 @@ Thornewill von Essen_Oliver Coursework #2 submission
 
 This blog application allows at least one user to create, update, delete, and read blog posts. There is an antuentication tool implemented such that only users which are authenticated are allowed to create, update, or delete posts. There is a registration and login form for the authentication.
 
+## A note on security
+I appreciate that GitHub automatically check libraries used against disclosed vulnerabilities. It definitely helps towards secure software development, and avoiding security breaches through outdated libraries. Meanwhile I'm getting a lot of reports from GitHub that many libraries used are indeed vulnerable. However, I would like to note that I am not able to maintain this code at this point of time, so I would like to make you aware that this application should be tested - if not updated - for security vulnerabilities before deployment. Thanks for stopping by!
+
 ## How to run: 
 Must be in root directory of repository
 ```
